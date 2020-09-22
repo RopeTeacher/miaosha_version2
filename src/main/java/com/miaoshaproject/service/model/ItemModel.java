@@ -3,6 +3,7 @@ package com.miaoshaproject.service.model;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -10,7 +11,7 @@ import java.math.BigDecimal;
  * @Date 2020/8/2 22:07
  * @Version 1.0
  */
-public class ItemModel {
+public class ItemModel implements Serializable {
     private Integer id;
     //商品名称
     @NotBlank(message = "商品名称不能为空")

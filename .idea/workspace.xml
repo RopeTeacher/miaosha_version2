@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="61d77955-28e0-4326-809d-6c6c5788fc47" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +23,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Repo\miaosha" />
-        <option name="mavenHome" value="D:\apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -55,6 +52,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,9 +100,17 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="miaosha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoshaproject.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="Spring Boot.App" />
     </list>
     <recent_temporary>
       <list>
@@ -110,7 +118,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,11 +176,22 @@
       <workItem from="1597919125715" duration="3345000" />
       <workItem from="1598845316543" duration="102000" />
       <workItem from="1599034683293" duration="58000" />
+      <workItem from="1599034745380" duration="2201000" />
+      <workItem from="1599789078916" duration="518000" />
+      <workItem from="1599789831280" duration="3260000" />
+      <workItem from="1599795580374" duration="732000" />
+      <workItem from="1600178194282" duration="4042000" />
+      <workItem from="1600491906506" duration="1679000" />
+      <workItem from="1600669274675" duration="4426000" />
+      <workItem from="1600674275934" duration="1160000" />
+      <workItem from="1600675765800" duration="17179000" />
+      <workItem from="1600749806599" duration="1448000" />
+      <workItem from="1600754506249" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="816" y="0" width="464" height="760" key="#Auto_Import" timestamp="1596459891564">
@@ -192,11 +211,11 @@
     </state>
     <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1592816504570" />
     <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1594814774150" />
-    <state x="446" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1597920317882">
+    <state x="446" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1600186251849">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597920317882" />
-    <state x="446" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1597613151451" />
+    <state x="446" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1600186251849" />
     <state x="300" y="302" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592816754311">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -206,74 +225,85 @@
     </state>
     <state x="371" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1592818992896" />
     <state x="371" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1596378496147" />
-    <state x="422" y="135" key="FileChooserDialogImpl" timestamp="1594814809921">
+    <state x="422" y="135" key="FileChooserDialogImpl" timestamp="1600670915725">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="422" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1594814809921" />
-    <state width="1238" height="171" key="GridCell.Tab.0.bottom" timestamp="1597932026093">
+    <state x="422" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1600670915725" />
+    <state width="1238" height="111" key="GridCell.Tab.0.bottom" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="172" key="GridCell.Tab.0.bottom/0.0.1280.760/-1080.0.1080.1880@0.0.1280.760" timestamp="1596460600587" />
     <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597921760725" />
-    <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597932026093" />
-    <state width="1238" height="171" key="GridCell.Tab.0.center" timestamp="1597932026093">
+    <state width="1238" height="111" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.0.center" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="172" key="GridCell.Tab.0.center/0.0.1280.760/-1080.0.1080.1880@0.0.1280.760" timestamp="1596460600587" />
     <state width="1238" height="171" key="GridCell.Tab.0.center/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597921760725" />
-    <state width="1238" height="171" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1597932026093" />
-    <state width="1238" height="171" key="GridCell.Tab.0.left" timestamp="1597932026093">
+    <state width="1238" height="111" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.0.left" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="172" key="GridCell.Tab.0.left/0.0.1280.760/-1080.0.1080.1880@0.0.1280.760" timestamp="1596460600587" />
     <state width="1238" height="171" key="GridCell.Tab.0.left/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597921760725" />
-    <state width="1238" height="171" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1597932026093" />
-    <state width="1238" height="171" key="GridCell.Tab.0.right" timestamp="1597932026093">
+    <state width="1238" height="111" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.0.right" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="172" key="GridCell.Tab.0.right/0.0.1280.760/-1080.0.1080.1880@0.0.1280.760" timestamp="1596460600587" />
     <state width="1238" height="171" key="GridCell.Tab.0.right/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597921760725" />
-    <state width="1238" height="171" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1597932026093" />
-    <state width="1238" height="241" key="GridCell.Tab.1.bottom" timestamp="1597425111709">
+    <state width="1238" height="111" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.1.bottom" timestamp="1600746830093">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1593155282123" />
-    <state width="1238" height="241" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597425111709" />
-    <state width="1238" height="241" key="GridCell.Tab.1.center" timestamp="1597425111708">
+    <state width="1238" height="111" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1600746830093" />
+    <state width="1238" height="111" key="GridCell.Tab.1.center" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1593155282123" />
-    <state width="1238" height="241" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1597425111708" />
-    <state width="1238" height="241" key="GridCell.Tab.1.left" timestamp="1597425111708">
+    <state width="1238" height="111" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.1.left" timestamp="1600746830092">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1593155282123" />
-    <state width="1238" height="241" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1597425111708" />
-    <state width="1238" height="241" key="GridCell.Tab.1.right" timestamp="1597425111708">
+    <state width="1238" height="111" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1600746830092" />
+    <state width="1238" height="111" key="GridCell.Tab.1.right" timestamp="1600746830093">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1593155282123" />
-    <state width="1238" height="241" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1597425111708" />
+    <state width="1238" height="111" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1600746830093" />
     <state x="221" y="114" key="IDE.errors.dialog" timestamp="1597403582264">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="221" y="114" key="IDE.errors.dialog/0.0.1280.760@0.0.1280.760" timestamp="1597403582264" />
-    <state x="171" y="35" key="Maven.ArtifactSearchDialog" timestamp="1592799491604">
+    <state x="171" y="35" key="Maven.ArtifactSearchDialog" timestamp="1600671113440">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="171" y="35" key="Maven.ArtifactSearchDialog/0.0.1280.760@0.0.1280.760" timestamp="1592799491604" />
-    <state x="143" y="25" width="1110" height="710" key="SettingsEditor" timestamp="1598845334405">
+    <state x="171" y="35" key="Maven.ArtifactSearchDialog/0.0.1280.760@0.0.1280.760" timestamp="1600671113440" />
+    <state x="143" y="25" width="1110" height="710" key="SettingsEditor" timestamp="1600670923375">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="143" y="25" key="SettingsEditor/0.0.1280.760/-1366.77.1366.984@0.0.1280.760" timestamp="1598845334405" />
     <state x="0" y="46" key="SettingsEditor/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1592818724012" />
-    <state x="143" y="25" width="1110" height="710" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1596449669704" />
-    <state x="318" y="95" width="672" height="678" key="search.everywhere.popup" timestamp="1597921555189">
+    <state x="143" y="25" width="1110" height="710" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1600670923375" />
+    <state x="346" y="110" width="672" height="678" key="search.everywhere.popup" timestamp="1600734787323">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="331" y="107" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/-1080.0.1080.1880@0.0.1280.760" timestamp="1596459727516" />
     <state x="318" y="95" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/-1920.0.1920.1040@0.0.1280.760" timestamp="1597921555189" />
-    <state x="344" y="110" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1597596519807" />
+    <state x="346" y="110" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1600734787323" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/miaosha$App.ic" NAME="App Coverage Results" MODIFIED="1596354364233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

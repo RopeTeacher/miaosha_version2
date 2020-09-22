@@ -37,6 +37,8 @@
       <version>6.1.1.Final</version>
     </dependency>
 
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -44,6 +46,17 @@
       <scope>test</scope>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.session</groupId>
+      <artifactId>spring-session-data-redis</artifactId>
+    </dependency>
+
+    <!--spring会将自己对session的管理方式存储在redisle里-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -62,7 +75,6 @@
     </dependency>
 
 
-
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
@@ -74,6 +86,7 @@
       <artifactId>joda-time</artifactId>
       <version>2.9.1</version>
     </dependency>
+
 
 
   </dependencies>
@@ -190,6 +203,11 @@
           <source>8</source>
           <target>8</target>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
